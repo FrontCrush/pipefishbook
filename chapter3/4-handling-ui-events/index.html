@@ -1,0 +1,35 @@
+<html>
+  <head>
+    <link href="static/styles.css" type="text/css" rel="stylesheet" />
+    <script src="static/bundle.js"></script>
+  </head>
+  <body>
+
+
+
+
+
+    <!-- You can delete this code -->
+    <div class="author-message">
+    <h3>Chapter 3.4: Handling UI Events</h3>
+    Paste this code in console:
+    <pre><code>
+var app = require('app');
+var moviesList = new app.MoviesList({collection: app.movies});
+document.body.appendChild(moviesList.render().el);
+    </pre></code>
+    Or use it inside a script tag to auto load.<br>
+
+    Now click to select movie.
+    <!-- Optionally, you can load it automatically from script tag
+    <script>
+      var app = require('app');
+      var moviesList = new app.MoviesList({collection: app.movies});
+      document.body.appendChild(moviesList.render().el);
+    </script>
+    -->
+    </div>
+  </body>
+</html>
+
+
